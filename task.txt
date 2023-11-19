@@ -1,0 +1,46 @@
+Overview
+
+The Inventory Management Application is a web application designed for managing products and their associated suppliers in an inventory system.
+Functional Requirements
+
+    Product Management
+
+        Add Product: Users can add new products, including their name, price, and category.
+
+        View Products: Display a list of all products with their names, prices, and categories.
+
+        Delete Product: Allow deletion of products, along with the removal of associated supplier information.
+
+    Supplier Management
+
+        Add Supplier: Users can add suppliers to a product, specifying the supplier's name and contact details.
+
+        View Suppliers: Display a list of suppliers for each product with their name and contact information.
+
+        Delete Supplier: Enable deletion of individual suppliers from a product.
+
+    Product Editing
+
+        Enable editing of product details (name, price, and category) with an edit button and save updates to the database.
+
+UI/UX Requirements
+
+    "/inventory" Page:
+
+        List all products with names, prices, and categories.
+
+        Link each product to its unique detail page ("/inventory/<id>").
+
+        Include a form to add new products.
+
+        Provide options to delete products.
+
+    Product Detail Page ("/inventory/<id>"):
+
+        Show the product's name, price, and category.
+
+        Include a form for adding new suppliers.
+
+        List current suppliers with options to delete them.
+
+        Offer functionality to edit and update the product's details.

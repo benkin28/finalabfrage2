@@ -1,0 +1,13 @@
+Supplier:
+id serial
+name text
+adress text
+product int foreing
+
+Product:
+id serial
+name text
+price int 
+category text
+
+all not null
